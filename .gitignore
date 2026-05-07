@@ -6,8 +6,8 @@ xcuserdata/
 DerivedData/
 build/
 
-# xcframeworks are distributed via GitHub release assets (not committed to git)
-amwalsdk_local/Frameworks/
+# xcframeworks are committed to git (LFS is NOT used — plain git blobs)
+# Only ignore dSYMs and Flutter-generated directories
 amwalsdk_local/amwalsdk/Flutter/
 
 # DS_Store

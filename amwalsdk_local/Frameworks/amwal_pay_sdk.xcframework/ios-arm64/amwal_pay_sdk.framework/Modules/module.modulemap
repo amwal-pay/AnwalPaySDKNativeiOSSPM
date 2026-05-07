@@ -1,0 +1,6 @@
+framework module amwal_pay_sdk {
+  umbrella header "amwal_pay_sdk-umbrella.h"
+
+  export *
+  module * { export * }
+}

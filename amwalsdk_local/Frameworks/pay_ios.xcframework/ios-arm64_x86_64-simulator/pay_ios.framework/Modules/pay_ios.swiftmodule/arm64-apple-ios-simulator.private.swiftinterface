@@ -1,0 +1,54 @@
+// swift-interface-format-version: 1.0
+// swift-compiler-version: Apple Swift version 6.3.1 effective-5.10 (swiftlang-6.3.1.1.2 clang-2100.0.123.102)
+// swift-module-flags: -target arm64-apple-ios13.0-simulator -enable-objc-interop -enable-library-evolution -swift-version 5 -Onone -enable-experimental-feature DebugDescriptionMacro -enable-bare-slash-regex -module-name pay_ios
+// swift-module-flags-ignorable: -no-verify-emitted-module-interface -formal-cxx-interoperability-mode=off -interface-compiler-version 6.3.1
+import Flutter
+import PassKit
+import Swift
+import UIKit
+import _Concurrency
+import _StringProcessing
+import _SwiftConcurrencyShims
+@_exported import pay_ios
+extension PassKit.PKPaymentButtonType {
+  public static func fromString(_ buttonType: Swift.String) -> PassKit.PKPaymentButtonType?
+}
+extension PassKit.PKPaymentButtonStyle {
+  public static func fromString(_ buttonStyle: Swift.String) -> PassKit.PKPaymentButtonStyle?
+}
+extension PassKit.PKPayment {
+  public func toDictionary() -> [Swift.String : Any]
+}
+extension PassKit.PKPaymentMethod {
+  public func toDictionary() -> [Swift.String : Any]
+}
+extension PassKit.PKContact {
+  public func toDictionary() -> [Swift.String : Any]
+}
+extension Foundation.PersonNameComponents {
+  public func toDictionary() -> [Swift.String : Any]?
+}
+extension Contacts.CNPostalAddress {
+  public func toDictionary() -> [Swift.String : Any]
+}
+extension PassKit.PKShippingMethod {
+  public func toDictionary() -> [Swift.String : Any?]
+}
+extension PassKit.PKPaymentNetwork {
+  public static func fromString(_ paymentNetworkString: Swift.String) -> PassKit.PKPaymentNetwork?
+}
+extension PassKit.PKPaymentSummaryItemType {
+  public static func fromString(_ summaryItemType: Swift.String) -> PassKit.PKPaymentSummaryItemType
+}
+extension PassKit.PKMerchantCapability {
+  public static func fromString(_ merchantCapability: Swift.String) -> PassKit.PKMerchantCapability?
+}
+extension PassKit.PKContactField {
+  public static func fromString(_ contactFieldItem: Swift.String) -> PassKit.PKContactField?
+}
+@objc @_inheritsConvenienceInitializers public class PayPlugin : ObjectiveC.NSObject, Flutter.FlutterPlugin {
+  @objc public static func register(with registrar: any Flutter.FlutterPluginRegistrar)
+  @objc public func handle(_ call: Flutter.FlutterMethodCall, result: @escaping Flutter.FlutterResult)
+  @objc override dynamic public init()
+  @objc deinit
+}
