@@ -1,1 +1,2 @@
+# Large binary frameworks — store via Git LFS (run `git lfs migrate import` after adding this file)
 amwalsdk_local/Frameworks/**/*.xcframework/** filter=lfs diff=lfs merge=lfs -text
