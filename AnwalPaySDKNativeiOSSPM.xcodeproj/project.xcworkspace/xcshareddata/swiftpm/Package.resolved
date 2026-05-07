@@ -1,0 +1,15 @@
+{
+  "originHash" : "de937e000bf8cbb88d6132d63e28f76487b13456717d0bc1706f675aad2db491",
+  "pins" : [
+    {
+      "identity" : "anwalpaysdknativeiosspm",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/amwal-pay/AnwalPaySDKNativeiOSSPM.git",
+      "state" : {
+        "revision" : "920f54d7c6ecc5a96d2a98c80f7fdc65790c1a0d",
+        "version" : "1.1.91"
+      }
+    }
+  ],
+  "version" : 3
+}
