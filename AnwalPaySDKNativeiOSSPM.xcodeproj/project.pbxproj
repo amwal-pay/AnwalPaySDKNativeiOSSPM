@@ -364,7 +364,7 @@
 			repositoryURL = "https://github.com/amwal-pay/AnwalPaySDKNativeiOSSPM.git";
 			requirement = {
 				kind = exactVersion;
-				version = "1.1.90";
+				version = "1.1.91";
 			};
 		};
 /* End XCRemoteSwiftPackageReference section */
