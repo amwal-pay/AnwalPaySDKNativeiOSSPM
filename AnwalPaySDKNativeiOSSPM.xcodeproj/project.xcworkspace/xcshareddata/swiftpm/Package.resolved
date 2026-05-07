@@ -6,7 +6,7 @@
       "kind" : "remoteSourceControl",
       "location" : "https://github.com/amwal-pay/AnwalPaySDKNativeiOSSPM.git",
       "state" : {
-        "revision" : "1080d64b67f370e82574da98bc1c1e3bc3e9a38d",
+        "revision" : "7ea443b309296f05bb3cc50a36d910dd83aa52a9",
         "version" : "1.1.91"
       }
     }
