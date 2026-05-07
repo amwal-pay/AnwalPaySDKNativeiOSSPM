@@ -7,7 +7,8 @@ DerivedData/
 build/
 
 # SPM binary xcframeworks (large, downloaded or extracted locally)
-amwalsdk_local/Frameworks/
+# NOTE: We intentionally DO commit the xcframeworks so private-repo SPM works
+# without downloading a Release asset (which requires unauthenticated access).
 amwalsdk_local/amwalsdk/Flutter/
 
 # DS_Store

@@ -1,1 +1,4 @@
+*.xcframework/** filter=lfs diff=lfs merge=lfs -text
+*.dSYM/** filter=lfs diff=lfs merge=lfs -text
+amwalsdk_local/Frameworks/** filter=lfs diff=lfs merge=lfs -text
 amwalsdk_local/Frameworks/**/*.xcframework/** filter=lfs diff=lfs merge=lfs -text
